@@ -142,6 +142,7 @@ for (const file of await collectHtml(distDir)) {
 
 for (const asset of [
   "img/app-icon.png",
+  "img/app-store-badge.svg",
   "img/dova-wings.webp",
   "img/dova-stand.webp",
   "img/dova-branch.webp",

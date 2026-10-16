@@ -388,9 +388,17 @@ a {
   align-items: center;
 }
 
-.hero-copy .stamp {
+.store-badge {
+  display: inline-block;
   margin-top: 1.5rem;
-  width: min(100%, 300px);
+  background: transparent;
+  line-height: 0;
+}
+
+.store-badge img {
+  width: 168px;
+  height: auto;
+  background: transparent;
 }
 
 .hero-art {
