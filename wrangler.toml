@@ -1,0 +1,6 @@
+name = "dova-landing"
+main = "worker.js"
+compatibility_date = "2026-10-16"
+
+[assets]
+# Static files served from Worker responses in worker.js
