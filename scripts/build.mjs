@@ -105,7 +105,7 @@ await walk(distDir);
 await rm(join(distDir, "partials"), { recursive: true, force: true });
 
 const home = await readFile(join(distDir, "index.html"), "utf8");
-for (const label of [tokens.brand, tokens.mascot, 'href="/terms"', "Download on the App Store", `href="${tokens.appStoreUrl}"`]) {
+for (const label of [tokens.brand, tokens.mascot, 'href="/terms"', 'href="/privacy"', "Download on the App Store", `href="${tokens.appStoreUrl}"`]) {
   if (!home.includes(label)) {
     throw new Error(`index.html is missing "${label}"`);
   }
@@ -117,9 +117,16 @@ for (const gone of ["How it works", "Features", "Begin with one small step", "Go
 }
 
 const terms = await readFile(join(distDir, "terms.html"), "utf8");
-for (const label of ["Terms and conditions", tokens.supportEmail, tokens.brand, "App Store", "Google Play"]) {
+for (const label of ["Terms and Conditions", "Hughes Zane", tokens.supportEmail, tokens.brand, "App Store", "Google Play"]) {
   if (!terms.includes(label)) {
     throw new Error(`terms.html is missing "${label}"`);
+  }
+}
+
+const privacy = await readFile(join(distDir, "privacy.html"), "utf8");
+for (const label of ["Privacy Policy", "Hughes Zane", tokens.supportEmail, tokens.brand, 'href="/terms"']) {
+  if (!privacy.includes(label)) {
+    throw new Error(`privacy.html is missing "${label}"`);
   }
 }
 

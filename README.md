@@ -11,7 +11,7 @@ Edit [`site.config.json`](site.config.json). The public app name, the dove's nam
   "brand": "Dova",
   "mascot": "Dova",
   "domain": "example.com",
-  "supportEmail": "hello@example.com",
+  "supportEmail": "admin@holy365.app",
   "appStoreUrl": "https://apps.apple.com/",
   "playStoreUrl": "https://play.google.com/store"
 }
@@ -21,7 +21,7 @@ Edit [`site.config.json`](site.config.json). The public app name, the dove's nam
 
 The homepage is the headline, the dove, and one App Store button. That button uses `appStoreUrl`. `playStoreUrl` stays in `site.config.json` and is not shown.
 
-The terms live at `/terms` (`src/terms.html`). The footer links there.
+The terms live at `/terms` (`src/terms.html`) and the privacy policy at `/privacy` (`src/privacy.html`). The footer links to both. The contact address is `supportEmail`.
 
 Then rebuild:
 
