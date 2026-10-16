@@ -21,6 +21,8 @@ Edit [`site.config.json`](site.config.json). The public app name, the dove's nam
 
 The App Store and Google Play buttons are placeholder links. Replace the URLs in `site.config.json` when the listings exist, and edit the placeholder sentence in `src/partials/stores.html` if you want it gone.
 
+The terms live at `/terms` (`src/terms.html`). The footer and the note under the store buttons link there.
+
 Then rebuild:
 
 ```bash
@@ -74,7 +76,9 @@ Workers Builds can later deploy pull requests with `npx wrangler preview`. Those
 
 ## Look
 
-The page uses the app's public visual system: parchment (`#f7f5f0`), ink (`#1c1917`), navy (`#071840`), and gold (`#c9a959`), set in [DM Sans](src/fonts/DMSans-OFL.txt) (SIL Open Font License, Latin). The dove on this page is drawn for the placeholder brand. Logo files, mascot art, icons, and screenshots from the private app repository were not readable in this environment (GitHub returns 404), so those files are not copied here.
+The page follows the app's coral stamp and Nunito system. The page is cream `#FFFBF5`, ink is `#2E2420`, and the main action is a sunrise-coral pill `#E8793F` with a `#C9602B` lip. Secondary copy uses `#807168`, a darker step of the app's `#8A7B72`, so small text stays readable on cream. Type is [Nunito](src/fonts/Nunito-OFL.txt) (SIL Open Font License, Latin), weights 500–900.
+
+The app icon and the three dove poses in `src/img/` are the product art supplied for this site. The private app repository was not readable from this environment, so nothing was copied from that git history. Screenshots of the earlier journal product are not used.
 
 ## Stack
 

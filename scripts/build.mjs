@@ -1,4 +1,4 @@
-import { cp, mkdir, readdir, readFile, rm, writeFile } from "node:fs/promises";
+import { access, cp, mkdir, readdir, readFile, rm, writeFile } from "node:fs/promises";
 import { dirname, join, normalize, relative, sep } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -110,10 +110,46 @@ for (const id of ["how", "features", "faq", "download"]) {
     throw new Error(`index.html is missing #${id}`);
   }
 }
-for (const label of ["App Store", "Google Play", tokens.brand, tokens.mascot]) {
+for (const label of ["App Store", "Google Play", tokens.brand, tokens.mascot, 'href="/terms"']) {
   if (!home.includes(label)) {
     throw new Error(`index.html is missing "${label}"`);
   }
+}
+
+const terms = await readFile(join(distDir, "terms.html"), "utf8");
+for (const label of ["Terms and conditions", tokens.supportEmail, tokens.brand, "App Store", "Google Play"]) {
+  if (!terms.includes(label)) {
+    throw new Error(`terms.html is missing "${label}"`);
+  }
+}
+
+async function collectHtml(dir, found = []) {
+  const entries = await readdir(dir, { withFileTypes: true });
+  for (const entry of entries) {
+    const full = join(dir, entry.name);
+    if (entry.isDirectory()) await collectHtml(full, found);
+    else if (entry.name.endsWith(".html")) found.push(full);
+  }
+  return found;
+}
+
+for (const file of await collectHtml(distDir)) {
+  const text = await readFile(file, "utf8");
+  if (/healing/i.test(text)) {
+    throw new Error(`${relative(root, file)} contains a forbidden word`);
+  }
+}
+
+for (const asset of [
+  "img/app-icon.png",
+  "img/dova-wings.webp",
+  "img/dova-stand.webp",
+  "img/dova-branch.webp",
+  "fonts/nunito-500.woff2",
+  "fonts/nunito-800.woff2",
+  "fonts/nunito-900.woff2",
+]) {
+  await access(join(distDir, asset));
 }
 
 console.log(`Built ${tokens.brand} landing page into dist/`);

@@ -24,3 +24,12 @@ if (box && nav) {
     close();
   });
 }
+
+const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+if (!reduceMotion && typeof navigator.vibrate === "function") {
+  document.querySelectorAll("a.stamp").forEach((link) => {
+    link.addEventListener("pointerdown", () => {
+      navigator.vibrate(12);
+    });
+  });
+}
