@@ -17,7 +17,7 @@ Edit [`site.config.json`](site.config.json). The public app name, the dove's nam
 }
 ```
 
-`brand` is the app name. `mascot` is the dove's name. They can diverge when the app is renamed. Templates use `{{brand}}`, `{{mascot}}`, `{{domain}}`, `{{supportEmail}}`, `{{appStoreUrl}}`, `{{playStoreUrl}}`, and `{{year}}`. The current pages leave `{{domain}}` unused until there is a real host to print.
+`brand` is the app name. `mascot` is the dove's name. They can diverge when the app is renamed. Templates use `{{brand}}`, `{{mascot}}`, `{{domain}}`, `{{supportEmail}}`, `{{appStoreUrl}}`, `{{playStoreUrl}}`, and `{{year}}`. `domain` is `get-dova.com`. The current pages do not print it.
 
 The App Store and Google Play buttons are placeholder links. Replace the URLs in `site.config.json` when the listings exist, and edit the placeholder sentence in `src/partials/stores.html` if you want it gone.
 
@@ -59,7 +59,7 @@ The site ships as [Workers static assets](https://developers.cloudflare.com/work
 
    That builds `dist/` and runs `wrangler deploy`. Cloudflare assigns a `*.workers.dev` hostname. If that subdomain is taken, change `name` in `wrangler.jsonc`.
 
-3. When the domain is ready, attach a [custom domain](https://developers.cloudflare.com/workers/configuration/routing/custom-domains/) in the dashboard or in `wrangler.jsonc`.
+The Worker `dova-landing` is attached to [get-dova.com](https://get-dova.com) and [www.get-dova.com](https://www.get-dova.com). Those hostnames are listed under `routes` in `wrangler.jsonc`, so a later `npm run deploy` keeps them.
 
 `npm run check` builds the site and runs `wrangler deploy --dry-run` to confirm the asset bundle packages.
 

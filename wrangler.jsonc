@@ -18,5 +18,9 @@
     "directory": "./dist",
     "html_handling": "auto-trailing-slash",
     "not_found_handling": "404-page"
-  }
+  },
+  "routes": [
+    { "pattern": "get-dova.com", "custom_domain": true },
+    { "pattern": "www.get-dova.com", "custom_domain": true }
+  ]
 }
