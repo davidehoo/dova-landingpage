@@ -388,6 +388,11 @@ a {
   align-items: center;
 }
 
+.hero-copy .stamp {
+  margin-top: 1.5rem;
+  width: min(100%, 300px);
+}
+
 .hero-art {
   display: flex;
   justify-content: center;

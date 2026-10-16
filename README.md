@@ -19,7 +19,7 @@ Edit [`site.config.json`](site.config.json). The public app name, the dove's nam
 
 `brand` is the app name. `mascot` is the dove's name. They can diverge when the app is renamed. Templates use `{{brand}}`, `{{mascot}}`, `{{domain}}`, `{{supportEmail}}`, `{{appStoreUrl}}`, `{{playStoreUrl}}`, and `{{year}}`. `domain` is `get-dova.com`. The current pages do not print it.
 
-The page does not show App Store or Google Play badges, or a phone mock. `appStoreUrl` and `playStoreUrl` stay in `site.config.json` for when the listings exist.
+The homepage is the headline, the dove, and one App Store button. That button uses `appStoreUrl`. `playStoreUrl` stays in `site.config.json` and is not shown.
 
 The terms live at `/terms` (`src/terms.html`). The footer links there.
 

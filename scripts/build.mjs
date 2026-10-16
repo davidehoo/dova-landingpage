@@ -105,18 +105,15 @@ await walk(distDir);
 await rm(join(distDir, "partials"), { recursive: true, force: true });
 
 const home = await readFile(join(distDir, "index.html"), "utf8");
-for (const id of ["how", "features", "faq"]) {
-  if (!home.includes(`id="${id}"`)) {
-    throw new Error(`index.html is missing #${id}`);
-  }
-}
-for (const label of [tokens.brand, tokens.mascot, 'href="/terms"']) {
+for (const label of [tokens.brand, tokens.mascot, 'href="/terms"', "Download on the App Store", `href="${tokens.appStoreUrl}"`]) {
   if (!home.includes(label)) {
     throw new Error(`index.html is missing "${label}"`);
   }
 }
-if (/app store|google play|class="phone"/i.test(home)) {
-  throw new Error("index.html still shows a store badge or the phone mock");
+for (const gone of ["How it works", "Features", "Begin with one small step", "Google Play", 'id="faq"', 'class="phone"']) {
+  if (home.includes(gone)) {
+    throw new Error(`index.html still includes "${gone}"`);
+  }
 }
 
 const terms = await readFile(join(distDir, "terms.html"), "utf8");
