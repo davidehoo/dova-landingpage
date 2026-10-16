@@ -19,9 +19,9 @@ Edit [`site.config.json`](site.config.json). The public app name, the dove's nam
 
 `brand` is the app name. `mascot` is the dove's name. They can diverge when the app is renamed. Templates use `{{brand}}`, `{{mascot}}`, `{{domain}}`, `{{supportEmail}}`, `{{appStoreUrl}}`, `{{playStoreUrl}}`, and `{{year}}`. `domain` is `get-dova.com`. The current pages do not print it.
 
-The App Store and Google Play buttons are placeholder links. Replace the URLs in `site.config.json` when the listings exist, and edit the placeholder sentence in `src/partials/stores.html` if you want it gone.
+The page does not show App Store or Google Play badges, or a phone mock. `appStoreUrl` and `playStoreUrl` stay in `site.config.json` for when the listings exist.
 
-The terms live at `/terms` (`src/terms.html`). The footer and the note under the store buttons link there.
+The terms live at `/terms` (`src/terms.html`). The footer links there.
 
 Then rebuild:
 
@@ -76,7 +76,7 @@ Workers Builds can later deploy pull requests with `npx wrangler preview`. Those
 
 ## Look
 
-The page follows the app's coral stamp and Nunito system. The page is cream `#FFFBF5`, ink is `#2E2420`, and the main action is a sunrise-coral pill `#E8793F` with a `#C9602B` lip. Secondary copy uses `#807168`, a darker step of the app's `#8A7B72`, so small text stays readable on cream. Type is [Nunito](src/fonts/Nunito-OFL.txt) (SIL Open Font License, Latin), weights 500–900.
+The page is cream `#FFFBF5` and ink `#2E2420`. Action links use a sunrise-coral pill `#E8793F` with a `#C9602B` lip. Secondary copy uses `#807168`, a darker step of the app's `#8A7B72`, so small text stays readable on cream. Type is [Nunito](src/fonts/Nunito-OFL.txt) (SIL Open Font License, Latin), weights 500–900.
 
 The app icon and the three dove poses in `src/img/` are the product art supplied for this site. The private app repository was not readable from this environment, so nothing was copied from that git history. Screenshots of the earlier journal product are not used.
 
