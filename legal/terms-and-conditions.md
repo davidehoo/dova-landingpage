@@ -1,0 +1,220 @@
+
+# Terms and Conditions
+
+**Last updated: 16 October 2026**
+
+These Terms and Conditions ("Terms") are a contract between you and Hughes Zane Ltd. ("Dova", "we", "us", "our") for the Dova mobile application (the "App"). Our address is 128 City Road, London, EC1V 2NX, United Kingdom. The App is shown to you as Dova. It is published under the Holy365 technical identity, including the bundle identifier `com.holy365.app` and the site [https://www.holy365.app](https://www.holy365.app).
+
+By downloading, installing, or using the App, you agree to these Terms and to the Privacy Policy at [https://www.holy365.app/privacy](https://www.holy365.app/privacy). If you do not agree, do not use the App.
+
+These Terms replace the terms last published on 11 June 2026. They are written for the App as it works on 16 October 2026 and for Apple's App Store Review Guidelines as updated on 8 June 2026, including Guidelines 1.2, 3.1.2, and 5.1.
+
+## 1. Eligibility
+
+You must be at least 13 years old. If you are under 18, you may use the App only with a parent or guardian's permission, and that adult agrees to these Terms. The App is not directed to children under 13 and is not in the App Store Kids Category.
+
+You must have the legal capacity to enter this contract, and you must not be barred from using the App under the laws that apply to you.
+
+## 2. The service
+
+Dova is a daily Scripture walk for Christians, guided by Dova, a dove companion. The App includes:
+
+- **Journey.** A path of guided nodes. A node can include Scripture, teaching, a reflection, a prayer, and gratitude. Completing a node can advance the path and record XP, a grace-based streak, badges, and Dova's stage.
+- **Prayers.** A place to keep your own prayer intentions, optional quiet reminders, and an Answered list. The in-tab pause is not a quest and does not by itself award XP.
+- **Journal archive.** A read-only history, opened from Settings, of reflections, prayers, gratitude, and older entries already on your account. You can search and delete entries. New writing happens inside the path, not in a separate blank-page editor.
+- **Circles.** Invite-only groups. Members can post prayers, answered prayers, and celebrations, pray for a post, and see a cooperative "walked today" signal if sharing is on. That signal is completion only. It does not include your writing.
+- **Community.** A separate feed for signed-in members, for short encouragement. It is not a public social network.
+- **Scripture in a lesson.** The passage for that node, in an English translation you choose. The App does not include a Bible browser, search, highlights, saved verses, or reader audio.
+- **Reminders.** Optional notifications for the path and for prayers you wrote.
+
+Dova is not medical, psychological, or pastoral care, and it is not an AI chat. There is no conversation partner in the App. The daily path does not send your writing to an AI provider. A note stored on an older entry may still be visible in the archive. It is not professional advice.
+
+We may change, pause, or retire a feature. We do not promise that any particular node, circle, or feed will always be available.
+
+## 3. Accounts
+
+An account is required. You can create one with an email one-time code, Sign in with Apple, or Google. If we offer Google sign-in, Sign in with Apple is offered as well.
+
+You are responsible for activity on your account and for keeping the device and inbox you use to sign in secure. Tell us at [admin@holy365.app](mailto:admin@holy365.app) if you believe the account is being misused.
+
+One person, one account. Do not share login access. We may refuse a name, invite code, or post that is misleading or that impersonates someone else.
+
+## 4. Subscriptions and other purchases
+
+Premium access is an auto-renewable subscription sold through the Apple App Store, or through Google Play where the App is offered there. The entitlement inside our billing system is named "holy365 Pro". The plans are:
+
+- A monthly subscription.
+- An annual subscription.
+
+The price, billing period, and what is included are shown on the purchase screen before you confirm. Prices can differ by storefront. We do not state a fixed price in these Terms because the store displays the price that applies to your account.
+
+### 4.1 Free trial
+
+When the purchase screen offers a free trial, and your store account is eligible, the trial length shown there applies (currently seven days when a trial is offered). You will not be charged during the trial. Unless you cancel at least 24 hours before the trial ends, the subscription converts to a paid plan at the price shown and renews automatically. If you are not eligible, or no trial is offered, payment is charged when you confirm.
+
+Any unused part of a free trial is forfeited if you purchase a subscription that replaces it, where the store applies that rule.
+
+A promotional code, if we offer one, follows the store's rules. A free-month code does not by itself start an auto-renewing plan unless the store says it does.
+
+### 4.2 Apple billing terms
+
+If you buy through the Apple App Store:
+
+- Payment is charged to your Apple ID at confirmation of purchase.
+- The subscription renews automatically unless you turn off auto-renew at least 24 hours before the end of the current period.
+- Your account is charged for renewal within 24 hours before the end of the current period, at the renewal price shown in your Apple ID subscription settings.
+- You can manage or cancel the subscription in your Apple ID account settings after purchase.
+- Cancelling stops the next renewal. It does not refund the current period, except where Apple's refund policy or the law requires a refund.
+- Restore Purchases on the subscription screen reattaches a subscription already bought with that Apple ID.
+
+The same timing rules apply on Google Play where the App is distributed there, using your Google account instead of an Apple ID.
+
+Deleting your Dova account does not cancel the store subscription. Cancel it in the store, or you will keep being billed.
+
+### 4.3 Tips
+
+The App may offer optional one-time tips as consumable in-app purchases. A tip is not a subscription, does not renew, and does not unlock a lasting entitlement beyond our thanks. Tips are processed by the store. We do not refund a tip ourselves. Ask the store if its policy allows a refund.
+
+### 4.4 Store relationship
+
+We do not process your card. The store is the seller of record for the purchase. If a charge fails or a product is unavailable, access may not unlock until the store confirms the purchase.
+
+## 5. Community standards
+
+Circles and Community contain content that members write. There is no tolerance for objectionable content or abusive users. You agree not to post, invite, or encourage:
+
+- Content that is unlawful, hateful, harassing, bullying, threatening, or sexually exploitative.
+- Content that sexualizes minors, or any sexual content involving anyone under 18.
+- Spam, scams, impersonation, or advertising.
+- Other people's private information, including journal text or prayers they did not choose to share.
+- Content that infringes someone else's rights.
+
+You are responsible for what you post. Do not post anything you are not willing for the people in that circle or feed to see. Private journal entries and your private prayer list are not posted to Circles or Community unless you write them there yourself.
+
+We provide, and you agree we may use:
+
+- A filter that blocks profanity, slurs, and sexual content before a post, circle name, or display name is shown.
+- Reporting, so you can flag a post.
+- Blocking, so you can stop seeing a person.
+- Removal of content, removal from a circle, and suspension or deletion of an account.
+- Review of reports by circle owners or admins, and by us for the Community feed.
+
+We will act on a valid report of objectionable content within 24 hours. Open reports are listed in our admin dashboard, and the operator reviews that queue. Contact [admin@holy365.app](mailto:admin@holy365.app) if a report in the App is not enough. We may remove content or end access without notice when we believe these standards, the law, or App Store Guideline 1.2 requires it.
+
+Circles are not anonymous chat, and Community is not a public network. Do not use either as a random chat room.
+
+## 6. Your content
+
+You keep ownership of the text you write. You give us a limited license to host, back up, display, and process that text only as needed to run the features you use, including showing a post to the members who are allowed to see it, and to investigate a report. This license ends when the content is deleted, except for copies we are required to keep for a short period for security, a legal claim, or a backup cycle we do not use to restore a deleted account.
+
+We do not use your journal, prayers, or posts for advertising, and we do not use them to train AI models.
+
+Feedback you send us may be used to operate and improve the App, without any duty to compensate you or to keep it confidential, except as the Privacy Policy describes.
+
+## 7. Scripture
+
+A lesson shows a passage in the translation you select. Translations available in the App include the Berean Standard Bible, the Bible in Basic English, the World English Bible, and the American Standard Version. Copyright in a translation stays with its owner. We display a passage inside the lesson under the terms that apply to that translation. You may not copy a translation beyond what its owner allows, and you may not present the App as an official edition of any Bible.
+
+The Berean Standard Bible is used under the free-use terms of its publisher, which require attribution. The World English Bible and the American Standard Version are public-domain texts.
+
+## 8. Our intellectual property
+
+The App, Dova's character and artwork, path curriculum, teaching text, and the Dova and Holy365 names and logos are owned by us or our licensors. We give you a personal, non-exclusive, non-transferable, revocable license to use the App on devices you own or control, under the store's usage rules. We do not sell the App to you.
+
+You may not copy, resell, reverse engineer, or scrape the App or its curriculum, except where the law does not allow that limit. You may not use our names or artwork without written permission.
+
+## 9. Acceptable use
+
+You agree not to:
+
+- Break the law, or help someone else break it, with the App.
+- Probe, disrupt, or overload the App or another member's account.
+- Bypass a subscription, paywall, or access control.
+- Use bots or scrapers.
+- Upload malware.
+- Use the App to provide therapy, medical advice, or an emergency response service.
+- Misrepresent Scripture or the App as a product of a church, publisher, or of Apple.
+
+## 10. Health and crisis disclaimer
+
+Dova is a faith practice. It is not a substitute for professional medical, psychological, or psychiatric care, and it does not diagnose, treat, or prevent any condition. If you may be in danger, contact local emergency services. In the United States you can call or text 988 for the Suicide and Crisis Lifeline. Nothing in the App is medical advice.
+
+## 11. Notifications
+
+Reminders are optional. You choose whether they are on, and you can change them in the App or in the device settings. Some reminders are scheduled on the device. Others are sent with a push token if you allow notifications. We do not require notifications in order to use the App.
+
+## 12. Privacy
+
+The Privacy Policy is part of these Terms. It describes account data, your writing, circles, community, analytics, and advertising measurement. Tracking for ads is optional and uses Apple's App Tracking Transparency prompt on iOS.
+
+## 13. Account deletion and ending access
+
+You can delete your account in Settings. Deletion removes the account and the personal data tied to it from our active systems, and clears the App's local copy, as the Privacy Policy describes. It cannot be undone. It does not cancel a store subscription.
+
+We may suspend or close an account, or remove content, if you break these Terms, if we must do so to comply with law or a store rule, or to protect other members. You may stop using the App at any time.
+
+## 14. Apple-specific terms
+
+If you downloaded the App from the Apple App Store, you and we agree to the following, which Apple requires when an app uses its own terms rather than Apple's standard licensed-application end user license:
+
+- These Terms are between you and us only, not with Apple. Apple is not responsible for the App or its content.
+- The license we grant you is a non-transferable license to use the App on Apple-branded products that you own or control, as permitted by the Usage Rules in the Apple Media Services Terms.
+- We, not Apple, are responsible for maintenance and support. You can reach us at [admin@holy365.app](mailto:admin@holy365.app).
+- If the App fails to meet an applicable warranty, you may notify Apple, and Apple may refund the purchase price of the App itself, if any. To the maximum extent permitted by law, Apple has no other warranty obligation for the App. Any other claim, loss, or liability is our responsibility. The App is free to download. Paid access is an in-app subscription handled in Section 4.
+- We, not Apple, are responsible for claims relating to the App, including product liability, a claim that the App fails to conform to a legal requirement, and consumer-protection claims.
+- If a third party claims that the App, or your possession and use of it, infringes that party's intellectual property rights, we, not Apple, are responsible for the investigation, defense, settlement, and discharge of that claim.
+- You represent that you are not located in a country subject to a U.S. Government embargo or designated as a terrorist-supporting country, and that you are not listed on any U.S. Government list of prohibited or restricted parties.
+- You must also comply with third-party terms that apply to your use, such as your wireless carrier's data agreement.
+- Apple and Apple's subsidiaries are third-party beneficiaries of these Terms. Once you accept them, Apple has the right to enforce them against you.
+- Apple has no obligation to provide support for the App.
+
+## 15. Disclaimers
+
+The App is provided "as is" and "as available". To the maximum extent permitted by law, we disclaim warranties of merchantability, fitness for a particular purpose, quiet enjoyment, and non-infringement. We do not warrant that the App will be uninterrupted, that a passage will always load, that a reminder will always arrive, or that community content will be accurate or kind.
+
+Scripture text can depend on a third-party Bible API. A missing passage is not a change to the underlying text's meaning, and you should check a Bible you trust when precision matters to you.
+
+Some jurisdictions do not allow certain disclaimers. In those places, the disclaimers apply only as far as the law allows.
+
+## 16. Limitation of liability
+
+To the maximum extent permitted by law, we and our affiliates, staff, and suppliers are not liable for indirect, incidental, special, consequential, or punitive damages, or for loss of data, profits, goodwill, or spiritual expectation, arising from the App or these Terms.
+
+Our total liability for claims arising out of the App or these Terms in any twelve-month period is limited to the amount you paid us for the App in that period, or fifty U.S. dollars if you paid nothing.
+
+Nothing in these Terms limits liability that cannot legally be limited, including liability for fraud, or for death or personal injury caused by negligence where the law forbids that limit. If you are a consumer in the EEA, the United Kingdom, or another place with mandatory consumer rights, those rights remain.
+
+## 17. Indemnity
+
+If you post content or use the App in a way that breaks these Terms or the law, you will indemnify us against third-party claims, damages, and reasonable legal fees arising from that use, to the extent the law allows. We may control the defense of a claim that you must indemnify, and you will cooperate. This section does not apply where the law of your country does not allow a consumer indemnity of this kind.
+
+## 18. Changes
+
+We may update these Terms. We will post the new Terms at [https://www.holy365.app/terms](https://www.holy365.app/terms) and change the date above. If a change is material, we will give notice in the App or by other reasonable means. If you keep using the App after the update applies, you accept the new Terms. If you do not agree, stop using the App and delete your account. A change does not alter a store subscription you already bought, except as the store's terms allow.
+
+## 19. Governing law and disputes
+
+These Terms are governed by the laws of England and Wales, without regard to conflict-of-law rules, except where a mandatory consumer law in your country of residence applies instead.
+
+Before filing a claim, email [admin@holy365.app](mailto:admin@holy365.app) and give us 30 days to try to resolve it. If we cannot, either of us may bring the claim in the courts of England and Wales. Consumers in the EEA and the United Kingdom may also use the courts and remedies of their home country where the law gives them that right.
+
+Apple may enforce Section 14 as a third-party beneficiary, as that section describes.
+
+## 20. Other terms
+
+If a court holds one part of these Terms unenforceable, the rest stays in effect. A delay in enforcing a right is not a waiver. You may not assign these Terms. We may assign them in connection with a merger, financing, or sale of the App. These Terms and the Privacy Policy are the entire agreement between you and us about the App. They do not create a partnership, church membership, or pastoral relationship.
+
+The App may contain or depend on open-source software and third-party services. Those components remain under their own licenses.
+
+## 21. Contact
+
+**Hughes Zane Ltd.**
+128 City Road, London, EC1V 2NX, United Kingdom
+
+**Email:** [admin@holy365.app](mailto:admin@holy365.app)
+
+**Terms:** [https://www.holy365.app/terms](https://www.holy365.app/terms)
+
+**Privacy Policy:** [https://www.holy365.app/privacy](https://www.holy365.app/privacy)
+
+
