@@ -26,12 +26,16 @@ PAGES = (
         "output": ROOT / "terms.html",
         "title": "Terms and Conditions — Dova",
         "description": "Terms and Conditions for the Dova app.",
+        "og_title": "Dova – Terms",
+        "og_url": "https://get-dova.com/terms",
     },
     {
         "source": ROOT / "legal" / "privacy-policy.md",
         "output": ROOT / "privacy.html",
         "title": "Privacy Policy — Dova",
         "description": "Privacy Policy for the Dova app.",
+        "og_title": "Dova – Privacy",
+        "og_url": "https://get-dova.com/privacy",
     },
 )
 
@@ -43,6 +47,18 @@ PAGE = """\
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>__TITLE__</title>
     <meta name="description" content="__DESCRIPTION__" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Dova" />
+    <meta property="og:title" content="__OG_TITLE__" />
+    <meta property="og:description" content="Learn the Bible with Dova." />
+    <meta property="og:image" content="https://get-dova.com/assets/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:url" content="__OG_URL__" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="__OG_TITLE__" />
+    <meta name="twitter:description" content="Learn the Bible with Dova." />
+    <meta name="twitter:image" content="https://get-dova.com/assets/og-image.png" />
     <meta name="theme-color" content="#f3e2ce" />
     <link rel="icon" href="assets/icon.png" type="image/png" />
     <link rel="apple-touch-icon" href="assets/icon.png" />
@@ -108,6 +124,8 @@ def render_page(spec: dict) -> None:
     page = (
         PAGE.replace("__TITLE__", spec["title"])
         .replace("__DESCRIPTION__", spec["description"])
+        .replace("__OG_TITLE__", spec["og_title"])
+        .replace("__OG_URL__", spec["og_url"])
         .replace("__CONTENT__", render_body(source))
     )
     spec["output"].write_text(page, encoding="utf-8")
