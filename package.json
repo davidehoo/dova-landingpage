@@ -1,0 +1,19 @@
+{
+  "name": "dova-landing",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Marketing landing page for a daily Christian faith companion.",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "preview": "npm run build && wrangler dev --port 8787 --ip 127.0.0.1",
+    "deploy": "npm run build && wrangler deploy",
+    "check": "npm run build && wrangler deploy --dry-run"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "wrangler": "^4.151.0"
+  }
+}
