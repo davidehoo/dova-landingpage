@@ -1,5 +1,5 @@
 # Source markdown and the text-match scripts stay in git for review.
-# They are not part of the public site. The live text is terms.html
-# and privacy.html (served at /terms and /privacy).
+# They are not part of the public site. The live pages are terms.html,
+# privacy.html, and support.html (served at /terms, /privacy, and /support).
 /legal
 /scripts

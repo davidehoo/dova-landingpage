@@ -93,6 +93,7 @@ __CONTENT__
       <nav class="footer-legal" aria-label="Legal">
         <a class="terms-link" href="terms.html">Terms</a>
         <a class="terms-link" href="privacy.html">Privacy</a>
+        <a class="terms-link" href="support.html">Support</a>
       </nav>
       <p class="hello-label">Say hello</p>
       <a class="email" href="mailto:admin@holy365.app">admin@holy365.app</a>
