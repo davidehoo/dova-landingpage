@@ -39,6 +39,7 @@ CHECKED_FILES = (
     ROOT / "index.html",
     ROOT / "terms.html",
     ROOT / "privacy.html",
+    ROOT / "support.html",
     ROOT / "styles.css",
     ROOT / "legal" / "terms-and-conditions.md",
     ROOT / "legal" / "privacy-policy.md",
@@ -303,18 +304,63 @@ def check_page(label: str, markdown_path: Path, html_path: Path, failures: list[
 
 def check_footer(failures: list[str]) -> None:
     print("\n== Footer links ==")
-    for name in ("index.html", "terms.html", "privacy.html"):
+    for name in ("index.html", "terms.html", "privacy.html", "support.html"):
         html = (ROOT / name).read_text(encoding="utf-8")
         require(
-            'href="terms.html"' in html and 'href="privacy.html"' in html,
-            f"{name} links to Terms and Privacy",
+            'href="terms.html"' in html
+            and 'href="privacy.html"' in html
+            and 'href="support.html"' in html,
+            f"{name} links to Terms, Privacy, and Support",
             failures,
         )
         require(
-            html.count(">Terms<") >= 1 and html.count(">Privacy<") >= 1,
-            f"{name} shows Terms and Privacy labels",
+            html.count(">Terms<") >= 1
+            and html.count(">Privacy<") >= 1
+            and html.count(">Support<") >= 1,
+            f"{name} shows Terms, Privacy, and Support labels",
             failures,
         )
+
+
+def check_support_page(failures: list[str]) -> None:
+    print("\n== Support page ==")
+    html = (ROOT / "support.html").read_text(encoding="utf-8")
+    require(
+        'property="og:url" content="https://get-dova.com/support"' in html,
+        "og:url is https://get-dova.com/support",
+        failures,
+    )
+    require(
+        html.count('content="Dova – Support"') >= 2,
+        'OG and Twitter titles are "Dova – Support"',
+        failures,
+    )
+    require(
+        'href="mailto:admin@holy365.app?subject=Dova%20support"' in html,
+        "contact mailto uses subject Dova support",
+        failures,
+    )
+    require(
+        "We usually reply within 2 business days." in html,
+        "reply time is stated",
+        failures,
+    )
+    require(
+        'href="https://support.apple.com/en-us/118428"' in html,
+        "subscription answer links to Apple's subscription guide",
+        failures,
+    )
+    require(
+        'href="https://reportaproblem.apple.com"' in html,
+        "refund answer links to reportaproblem.apple.com",
+        failures,
+    )
+    require(
+        'href="/terms"' in html and 'href="/privacy"' in html,
+        "page links to /terms and /privacy",
+        failures,
+    )
+    require(not HEALING_RE.search(html), "support page does not contain 'healing'", failures)
 
 
 def check_forbidden_word(failures: list[str]) -> None:
@@ -336,6 +382,7 @@ def main() -> None:
     for label, markdown_path, html_path in PAGES:
         diffs.append(check_page(label, markdown_path, html_path, failures))
     check_footer(failures)
+    check_support_page(failures)
     check_forbidden_word(failures)
 
     print("\n== Diff of extracted text (source vs HTML) ==")
